@@ -1,0 +1,221 @@
+/* Navbar*/
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.0rem;
+}
+.nav-item{
+  font-family: 'ubuntu';
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-link{
+  font-family: 'ubuntu';
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.container_1{
+  padding: 35px 200px 150px;
+}
+.navbar{
+  margin-bottom: 50px;
+}
+
+/* title*/
+
+#title{                   /*to target id to change any of the property of HTML element use # sign*/
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2.9rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.iphone{
+  padding-top: 30px;
+  width: 300px;
+  height: 600px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features */
+
+#features{
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+p{
+  color: #7F8487;
+}
+.icon-feature{
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+.icon{
+  color: #FF8C8C;
+  margin-bottom: 20px;
+}
+.icon:hover{
+  color: #F94C66;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #F94C66;
+  color: #fff;
+}
+.testimonial-text{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.0rem;
+  line-height: 1.5;
+  padding: 0 90px;
+}
+#carousel_testimonials{
+  padding: 80px 200px;
+}
+.testimonial-image{
+  width: 100px;
+  border-radius: 100%;   /*border radius is used to shape sqaure shape to circle */
+}
+.carousel-indicators{
+  top: 350px;
+/* position: absolute; this property is by default applied to bootstrap class carousel-indicators and thats why only applying top property shift the position of carousel indicators*/
+}
+
+/* press */
+
+#press{
+  background-color: #F94C66;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.press-image{
+  width: 300px;
+  padding: 0 50px;
+}
+
+/* pricing */
+
+#pricing{
+  text-align: center;
+}
+.container_2{
+  padding: 45px 100px;
+}
+.card{
+  margin: 30px 20px;
+}
+.card-header{
+  background-color: #FF8C8C;
+  color: white;
+  padding: 20px 0;
+}
+.btn:hover{
+  background-color:#F94C66;
+}
+.pricing_head{
+  font-size: 2.5rem;
+}
+
+/* call to action */
+
+#cta{
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 80px 250px;
+}
+.heading_cta{
+  font-size: 2.0rem;
+  padding-bottom: 50px;
+}
+
+/* Footer section */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+a{
+  color: #ff4c68;
+}
+a:hover{
+  color: #231955;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* Media Query(to make web page responsive and change its behaviour as per our defined propeties) */
+
+@media (max-width: 991px){
+    #title{
+      text-align: center;
+    }
+    .iphone{
+      position: static;
+      transform: none;
+    }
+    .container_1{
+      padding-bottom: 30px;
+    }
+    .download_btn{
+      margin-bottom: 15px;
+    }
+    .testimonial-text{
+      text-align: center;
+      font-family: 'Montserrat';
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      padding: 0 90px;
+    }
+    #carousel_testimonials{
+      padding: 80px 100px;
+    }
+    #cta{
+      color: #fff;
+      text-align: center;
+      background-color: #ff4c68;
+      padding: 80px 100px;
+    }
+}
+@media (max-width:775px)
+{
+  .container_1{
+    padding: 20px 100px;
+  }
+  .press-image{
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:650px){
+  #carousel_testimonials{
+    padding: 80px 0px;
+  }
+  .container_1{
+    padding: 20px 20px;
+  }
+}
+@media (max-width:570px)
+{
+  .container_2{
+    padding: 45px 50px;
+  }
+}
